@@ -651,7 +651,7 @@ module.exports = async(xinz, msg, smsg, blocked, _afk, welcome) => {
                     "type": "RESPONSE"
                 }
 ]
-                xinz.sendButtonsLoc(from, `Hai Kak @${sender.split('@')[0]}\n\nSaya Felix, Bot WhatsApp yg membantu kamu untuk mempermudah sesuatu seperti Membuat Sticker dan Lainnya, Ada Butuh Info Dariku?`, `Note: Kalo kamu pakai wa lama atau mod, dan button ga keliatan, langsung aja ketik ${prefix}allmenu`, qqppp, await getBuffer(pic), [sender])
+                xinz.sendButtonsLoc(from, `Hai Kak @${sender.split('@')[0]}\n\nSaya pinpay, Bot WhatsApp yg membantu kamu untuk mempermudah sesuatu seperti Membuat Sticker dan Lainnya, Ada Butuh Info Dariku?`, `Note: Kalo kamu pakai wa lama atau mod, dan button ga keliatan, langsung aja ketik ${prefix}allmenu`, qqppp, await getBuffer(pic), [sender])
                 }
                 break
              case prefix+'allmenu': case prefix+'menuall':{
